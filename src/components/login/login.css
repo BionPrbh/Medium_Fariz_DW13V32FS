@@ -1,0 +1,67 @@
+p {
+	color: rgba(0, 0, 0, 0.54);
+}
+.Login {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  width: 50vw;
+  height: 65vh;
+  display: flex;
+	font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 10px;
+  border-radius: 4px;
+}
+
+.ContentContainerLeft {
+	background-color: white;
+	flex: 2;
+}
+.ContentContainerMiddle {
+	background-color: white;
+	flex: 4;
+	margin-top: 20px;
+}
+.ContentContainerRight {
+	background-color: white;
+	flex: 2;
+}
+
+.LoginForm {
+	margin-top:90px
+}
+
+.SigninButton {
+	margin: 40px;
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 8px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+	font-size: 16px;
+	border-radius: 4px;
+	padding: 8px 16px;
+	font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+	font-weight: 400;
+	font-size: 15.8px;
+}
+
+.AllSignUpOption {
+	background-color: white;
+	border: none;
+	color: rgb(2, 158, 116);
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+}
+
+.TextInputEmail {
+	font-size: 15px;
+}
+.TextInputPassword {
+	font-size: 15px;
+}
