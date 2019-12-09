@@ -1,0 +1,72 @@
+.Register {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  width: 50vw;
+  height: 65vh;
+  display: flex;
+  font-family: sans-serif;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 10px;
+  border-radius: 4px;
+}
+
+.ContentContainerLeft {
+  background-image: url('https://miro.medium.com/max/214/1*MQH4A5bsyRz4AWh5V4IfvQ.png');
+  background-repeat: no-repeat;  
+  flex: 2;
+}
+.ContentContainerMiddle {
+  background-color: white;
+  flex: 4;
+}
+.ContentContainerRight {
+  background-image: url('https://miro.medium.com/max/214/1*lhbp8cxKdkDB-MgmwIPE5w.png');
+  background-repeat: no-repeat;  
+  flex: 2;
+}
+
+.MiddleContentParagraph1 {
+  font-size: 14px;
+}
+.MiddleContentParagraph2 {
+  font-size: 14px;
+}
+.MiddleContentParagraph3 {
+  font-size: 14px;
+}
+
+.RegisterButton {
+  margin: 40px;
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 8px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.RegisterForm {
+  margin-top: 40px;
+}
+
+.TextInputUsername {
+  font-size: 14px;
+}
+
+.TextInputPassword {
+  font-size: 14px;
+}
+
+.TextInputEmail {
+  font-size: 14px;
+}
+
+.TermsOfServiceLink {
+  color: black;
+}
+
+.PrivacyPolicyLink {
+  color: black;
+}
