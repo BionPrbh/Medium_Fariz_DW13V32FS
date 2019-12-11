@@ -7,7 +7,7 @@ import RegisterButton from "../input/button/button"
 class Register extends Component {
   render() {
     return (
-      <div className="Register">
+      <div className="Register" style={{marginTop:120}}>
         <Container className="ContentContainerLeft" />
         <Container className="ContentContainerMiddle">
           <h1>Join Medium.</h1>
@@ -37,7 +37,7 @@ class Register extends Component {
             ButtonLabel="Registration"
           />
           <p className="MiddleContentParagraph3">
-            Already have an account?<a href="/">Sign in</a>
+            Already have an account?<a href="/login">Sign in</a>
           </p>
           <p className="MiddleContentParagraph3">
             To make medium work, we log user data and share it with service

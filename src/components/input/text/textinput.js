@@ -7,7 +7,7 @@ class TextInput extends Component {
     return (
       <div className={this.props.textInputClassName}>
         <p className="">{this.props.textInputLabel}</p>
-        <Input type="text" />
+        <Input type="text" style={{width:270}}/>
       </div>
     );
   }
