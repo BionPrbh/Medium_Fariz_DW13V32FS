@@ -37,7 +37,7 @@ class Register extends Component {
             ButtonLabel="Registration"
           />
           <p className="MiddleContentParagraph3">
-            Already have an account?<a href="/">Sign in</a>
+            Already have an account?<a href="/login">Sign in</a>
           </p>
           <p className="MiddleContentParagraph3">
             To make medium work, we log user data and share it with service

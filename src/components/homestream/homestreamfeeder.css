@@ -1,0 +1,75 @@
+.Feeder{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.FeederTop{
+    display: flex;
+    flex: 1;
+    margin-bottom: 24px;
+}
+.FeederContentTop{
+    width: 265px;
+    height: 100px;
+    line-height: 20px;
+}
+.FeederImageTop{
+    background-image: url('https://cdn-images-1.medium.com/focal/100/100/48/47/1*4-Mlq4CokGt88d4RRRsZPg.jpeg');
+    background-position: 48% 47%;
+    flex: auto;
+    width: 100px;
+    height: 100px;
+    margin-right: 24px;
+}
+.FeederContentTopTitle{
+    font-size: 10px;
+    max-height: 40px;
+    overflow: hidden;
+}
+.FeederContentTopWriterDate{
+    display: flex;
+}
+
+.FeederMiddle{
+    flex: 1;
+    margin-bottom: 24px;
+    display: flex;
+}
+.FeederContentMiddle{
+    background-color: teal;
+    width: 265px;
+    height: 100px;
+}
+.FeederImageMiddle{
+    background-image: url('https://cdn-images-1.medium.com/focal/100/100/56/42/1*2kxzQ-nK3EaqYbhKxX5hTQ.jpeg');
+    background-color: teal;
+    background-position: 48% 47%;
+    flex: auto;
+    width: 100px;
+    height: 100px;
+    margin-right: 24px;
+}
+
+
+
+
+.FeederBottom{
+    display: flex;
+    flex: 1;
+    margin-bottom: 24px;
+}
+.FeederImageBottom{
+    background-image: url('https://cdn-images-1.medium.com/focal/100/100/33/68/1*df6SmsVK8k5m-gL85RqSag.jpeg');
+    background-color: teal;
+    background-position: 48% 47%;
+    flex: auto;
+    width: 100px;
+    height: 100px;
+    margin-right: 24px;
+}
+.FeederContentBottom{
+    background-color: teal;
+    width: 265px;
+    height: 100px;
+    line-height: 20px;
+}
