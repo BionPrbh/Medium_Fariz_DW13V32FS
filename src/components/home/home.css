@@ -1,0 +1,58 @@
+.HomeHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.HomeNavigator {
+    padding-left: 75px;
+    align-self: center;
+}
+
+.Navbar {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.Category {
+     margin-top: 14px;
+}
+
+.Item {
+    padding-right: 14px;
+    padding-left: 14px;
+    font-size: 15px;
+    font-weight: 400;
+    color: gray;
+}
+
+.ItemFirst{
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+}
+.ItemLast{
+    font-size: 15px;
+    color: gray;
+    font-weight: 400;
+}
+
+.ContentHomeStreamContainer {
+    max-width: 1208px;
+    height: 350px;
+    width: 100%;
+    display: flex;
+}
+
+.TopStreamLeft {
+    background-color: transparent;
+    flex: 5;
+    margin-right: 24px;
+}
+.TopStreamMiddle {
+    flex: 4;
+    margin-right: 24px;
+}
+.TopStreamRight {
+    flex: 4;    
+}
