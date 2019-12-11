@@ -126,12 +126,67 @@ class Home extends Component {
               <Grid className="ForeGround" style={{minHeight:"100vh",}}>
                 <Grid container style={{maxWidth:"100vh", width:"100%", margin:"0 auto",marginTop:48}}>
                   <Grid item xs={8}  className="GroundLeft" style={{height:"100vh",paddingRight:24}}>
-                    <Mainfeed />
-                    <Mainfeed />
-                    <Mainfeed />
-                    <Mainfeed />
-                    <Mainfeed />
-                    <Mainfeed />
+                    <Mainfeed 
+                      MainFeedUrl=""
+                      Category="POPULAR ON MEDIUM"
+                      Title="Startup Books you should read in 2020"
+                      Description="How to grow a start-up? Read daily!"
+                      Writer="Przemek Chojecki"
+                      Publisher="Towards Data Science"
+                      Date="Nov 20"
+                      Minute="4 min read"
+                      MainFeedImage="https://cdn-images-1.medium.com/fit/c/152/156/1*Jg1oYMG_dN2MxbBzlgo0Xg.jpeg"
+                    />
+                    <Mainfeed 
+                      Category="POPULAR ON MEDIUM"
+                      Title="10 Tips and Tricks That Will Make You a Better ReactJS Dev"
+                      Description="This will help you becoming better React devs, write better code or excel at coding interviews"
+                      Writer="Simon Holdorf"
+                      Publisher="Better Programming"
+                      Date="Nov 21"
+                      Minute="8 min read"
+                      MainFeedImage="https://cdn-images-1.medium.com/fit/c/152/156/1*-U4maCVfQf5Du120SDuqSw.jpeg"
+                    />
+                    <Mainfeed 
+                      Category="FITNESS"
+                      Title="On Quitting in the Middle of a Marathon"
+                      Description="What does it mean to keep doing something when you no longer want to?"
+                      Writer="Sarah Menkedick"
+                      Publisher="Gay Mag"
+                      Date="Dec 11"
+                      Minute="13 min read"
+                      MainFeedImage="https://cdn-images-1.medium.com/focal/152/156/50/45/1*EzS1MwkKkSZNqx5jX27d3A.gif"
+                    />
+                    <Mainfeed 
+                      Category="POPULAR ON MEDIUM"
+                      Title="Fantastic Programming Project Ideas and Where to Find Them (Beginner-Friendly)"
+                      Description="20 cool project ideas for data science, machine-learning app development, and web development"
+                      Writer="Nityesh Agarwal"
+                      Publisher="Better Programming"
+                      Date="Nov 28"
+                      Minute="12 min read"
+                      MainFeedImage="https://cdn-images-1.medium.com/fit/c/152/156/1*-59NNutOhc5iDRIGJioxIQ.jpeg"
+                    />
+                    <Mainfeed 
+                      Category="POPULAR ON MEDIUM"
+                      Title="https://cdn-images-1.medium.com/fit/c/152/156/1*Vqh0ZoxEm1ge3XlpslFYCQ.jpeg"
+                      Description="10 Of The Most Awesome MacOS Catalina Features"
+                      Writer="Erik-Jan van Baaren MSc"
+                      Publisher="Tech Explained"
+                      Date="Nov 21"
+                      Minute="6 min read"
+                      MainFeedImage="https://cdn-images-1.medium.com/fit/c/152/156/1*AK6CMKn0SFzgi7Safk55dg.png"
+                    />
+                    <Mainfeed 
+                      Category="POPULAR ON MEDIUM"
+                      Title="Must-Have Weapons In Your React Armory"
+                      Description="Weapons(tools) make a soldier(developer) effective. Advanced & effective weapons(tools) in your armory will make sure, you have the right…"
+                      Writer="Erik-Jan van Baaren MSc"
+                      Publisher="Tech Explained"
+                      Date="Nov 21"
+                      Minute="6 min read"
+                      MainFeedImage="https://cdn-images-1.medium.com/fit/c/152/156/1*Vqh0ZoxEm1ge3XlpslFYCQ.jpeg"
+                    />
 
                   </Grid>
                   <Grid item xs={4} className="GroundRight" style={{height:"100vh"}}>
