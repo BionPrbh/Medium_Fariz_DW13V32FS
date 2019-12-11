@@ -8,7 +8,7 @@ p {
   width: 50vw;
   height: 65vh;
   display: flex;
-	font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+  font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
   margin: auto;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 10px;
   border-radius: 4px;
