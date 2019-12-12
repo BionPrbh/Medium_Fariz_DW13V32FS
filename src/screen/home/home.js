@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './home.css'
-import HomeButton from '../header/header'
+import HomeButton from '../../components/header/header'
 import IconButton from '@material-ui/core/IconButton'
 import Icon from '@material-ui/core/Icon';
 import Container from '@material-ui/core/Container';
@@ -9,13 +9,13 @@ import BookmarksOutlinedIcon from '@material-ui/icons/BookmarksOutlined';
 import NotificationsOutlinedIcon from '@material-ui/icons/NotificationsOutlined';
 import Avatar from '@material-ui/core/Avatar';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
-import HomeStreamMain from '../homestream/homestreammain'
-import HomeStreamFeeder from '../homestream/homestreamfeeder'
-import HomeStreamSide from '../homestream/homestreamside'
+import HomeStreamMain from '../../components/homestream/homestreammain'
+import HomeStreamFeeder from '../../components/homestream/homestreamfeeder'
+import HomeStreamSide from '../../components/homestream/homestreamside'
 import Grid from '@material-ui/core/Grid'
-import StreamCard from '../streamcard/streamcard'
-import Mainfeed from '../mainfeed/mainfeed'
-import Navbar from '../category/category'
+import StreamCard from '../../components/streamcard/streamcard'
+import Mainfeed from '../../components/mainfeed/mainfeed'
+import Navbar from '../../components/category/category'
 
 class Home extends Component {
     render() {

@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "./login.css";
 import Container from "@material-ui/core/Container";
-import InputWithIcon from "../input/text/textinput";
-import LoginButton from "../input/button/button";
+import InputWithIcon from "../../components/input/text/textinput";
+import LoginButton from "../../components/input/button/button";
 import {Link} from 'react-router-dom';
 
 
