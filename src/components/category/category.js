@@ -1,8 +1,9 @@
 import React from 'react'
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
-import { Container, IconButton, Link} from '@material-ui/core'
+import { Container, IconButton} from '@material-ui/core'
 import './category.css'
+import { Link } from 'react-router-dom'
 
 export default function Navbar() {
   const handleClick = () => {
@@ -20,7 +21,7 @@ export default function Navbar() {
           <Link className="ItemFirst" color="rgba(0,0,0,.76)" underline="none"  href="/" onClick={handleClick}>
             HOME
           </Link>
-          <Link className="Item" underline="none" color="rgba(0,0,0,.76)" href="/" onClick={handleClick}>
+          <Link to="categoryPage" className="Item" underline="none" color="rgba(0,0,0,.76)" onClick={handleClick}>
             ONEZERO
           </Link>
           <Link className="Item" underline="none" color="rgba(0,0,0,.76)" href="/" onClick={handleClick}>
