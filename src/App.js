@@ -10,12 +10,12 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 // import NewStory from './screen/newStory/newStory'
 // import Stats from './screen/stats/stats'
 // import Story from './screen/story/story'
-// import Profile from './screen/profile/profile' 
+import Profile from './components/profile/profile' 
 // import ArticleByPerson from './screen/articleByPerson/articleByPerson'
 // import Bookmarks from './screen/bookmarks/bookmarks'
 // import Follow from './components/follow/follow' 
 // import ArticleDetails from './screen/article/articleDetails'
-import RelatedArticle from './components/relatedArticle/relatedArticle'
+// import RelatedArticle from './components/relatedArticle/relatedArticle'
 
 function App() {
   return (
@@ -32,7 +32,7 @@ function App() {
             <CategoryPage />
           </Route> */}
           <Route path="/">
-            <RelatedArticle />
+            <Profile />
             {/* <Home /> */}
           </Route>
           {/* <Route path="/articleDtails"> 
@@ -43,6 +43,9 @@ function App() {
           </Route> */}
           {/* <Router path="/comment">
             <Comment />
+          </Router> */}
+          {/* <Router path="/menuRouter">
+            <RelatedArticle />
           </Router> */}
         </Switch>
       </Router>
