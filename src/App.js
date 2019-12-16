@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 // import CategoryPage from './screen/categoryPage/categoryPage'
 // import Home from './screen/home/home'
 // import ArticleDetails from './screen/articleDetails/articleDetails'
-import Comment from './components/comment/comment'
+// import Comment from './components/comment/comment'
 // import NewStory from './screen/newStory/newStory'
 // import Stats from './screen/stats/stats'
 // import Story from './screen/story/story'
@@ -15,6 +15,7 @@ import Comment from './components/comment/comment'
 // import Bookmarks from './screen/bookmarks/bookmarks'
 // import Follow from './components/follow/follow' 
 // import ArticleDetails from './screen/article/articleDetails'
+import RelatedArticle from './components/relatedArticle/relatedArticle'
 
 function App() {
   return (
@@ -30,8 +31,8 @@ function App() {
           <Route path="/categoryPage">
             <CategoryPage />
           </Route> */}
-          <Route path="/"> 
-            <Comment />
+          <Route path="/">
+            <RelatedArticle />
             {/* <Home /> */}
           </Route>
           {/* <Route path="/articleDtails"> 
@@ -40,6 +41,9 @@ function App() {
           {/* <Route path="/follow">
             <Follow />
           </Route> */}
+          {/* <Router path="/comment">
+            <Comment />
+          </Router> */}
         </Switch>
       </Router>
     </div>
