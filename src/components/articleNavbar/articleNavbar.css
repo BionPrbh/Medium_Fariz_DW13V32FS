@@ -1,0 +1,40 @@
+.App-ToolBar {
+    background-color: white;
+  }
+  .App-Typography {
+    color: black;
+    font-weight: bold;
+    font-family: serif;
+    font-size: 25px;
+  }
+  .App-Button {
+    color: gray;
+  }
+  .coba {
+    margin-left: auto;
+  }
+  .App-poper {
+    width: 300px;
+    margin-right: 20px;
+    text-align: left;
+    padding: 30px;
+  }
+  .App-poperAvatar {
+    display: flex;
+  }
+  .App-avatar {
+    margin-right: 20px;
+    min-width: 50px;
+    min-height: 50px;
+  }
+  .App-subMenu {
+    margin-top: 10px;
+  }
+  .menu {
+    text-decoration: none;
+    color: rgb(154, 153, 153);
+  }
+  .App-Avatar {
+    border: 1px solid gray;
+  }
+  

@@ -187,7 +187,6 @@ class Home extends Component {
                       Minute="6 min read"
                       MainFeedImage="https://cdn-images-1.medium.com/fit/c/152/156/1*Vqh0ZoxEm1ge3XlpslFYCQ.jpeg"
                     />
-
                   </Grid>
                   <Grid item xs={4} className="GroundRight" style={{height:"100vh"}}>
                     <StreamCard />

@@ -12,7 +12,6 @@ import CPHTFirst from '../../components/cphighlights/cphighlightstextfirst'
 import CPHQuote from '../../components/cphighlights/cphquote'
 import CPFeed from '../../components/cpcontent/cpcontent'
 
-
 export default function categoryPage() {
   return(
     <Grid container>
@@ -116,9 +115,9 @@ export default function categoryPage() {
               />
             </Grid>
             <Grid item sm={12} style={{marginTop:20}}>
-              <p style={{fontSize:34, fontWeight:500, color:"black"}}>Keep Your Home Screen Organized</p>
-              <p style={{fontSize:21, fontWeight:400, color:"black"}}>Designer Hideaki Nakatani makes a variety of unconventional wallpapers that expand the capabilities of iOS. (Sorry, Android users.) The “Expand Bezel” options give you appealing app shelves to organize your home screen with; the “Hide Dock” wallpapers, well, hide the default shading behind your app dock, allowing colors and gradients to spill all the way to the bottom of your screen.</p>
-              <p style={{fontSize:21, fontWeight:400, color:"black"}}> Visit Nakatani’s <a href="/">“Mysterious iPhone Wallpaper” website</a> to explore the options for yourself. And come back to OneZero for more tips like this every day.</p>
+              <p style={{fontSize:34, fontWeight:500}}>Keep Your Home Screen Organized</p>
+              <p style={{fontSize:21, fontWeight:400}}>Designer Hideaki Nakatani makes a variety of unconventional wallpapers that expand the capabilities of iOS. (Sorry, Android users.) The “Expand Bezel” options give you appealing app shelves to organize your home screen with; the “Hide Dock” wallpapers, well, hide the default shading behind your app dock, allowing colors and gradients to spill all the way to the bottom of your screen.</p>
+              <p style={{fontSize:21, fontWeight:400}}> Visit Nakatani’s <a href="/">“Mysterious iPhone Wallpaper” website</a> to explore the options for yourself. And come back to OneZero for more tips like this every day.</p>
             </Grid>
           </Grid>
         </Grid>

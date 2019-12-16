@@ -1,0 +1,19 @@
+.article{
+    width: 100vh;
+    box-shadow: lightgray 0px 4px 3px 0px;
+}
+.article-navbar {
+    height: 65px;
+    background-color: transparent;
+    max-width: 1192px;
+    margin: auto;
+}
+.article-navbar-left {
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+}
+.article-navbar-right {
+    display: flex;
+    justify-content: flex-end;
+}

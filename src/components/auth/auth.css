@@ -1,0 +1,31 @@
+.p1 {
+  width: 400px;
+  margin: auto;
+  font-size: 15px;
+}
+.App-body {
+  justify-content: center;
+  display: flex;
+}
+
+.App-content {
+  margin-top: 5%;
+  width: 80vw;
+  height: 80vh;
+  background-size: contain;
+
+  background-repeat: no-repeat;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.App-form {
+  align-items: center;
+  align-content: center;
+}
+.App-content-login {
+  margin-top: 5%;
+  width: 80vw;
+  height: 80vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
