@@ -7,10 +7,10 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 // import Home from './screen/home/home'
 // import ArticleDetails from './screen/articleDetails/articleDetails'
 // import Comment from './components/comment/comment'
-// import NewStory from './screen/newStory/newStory'
+import NewStory from './screen/newStory/newStory'
 // import Stats from './screen/stats/stats'
 // import Story from './screen/story/story'
-import Profile from './components/profile/profile' 
+// import Profile from './components/profile/profile'
 // import ArticleByPerson from './screen/articleByPerson/articleByPerson'
 // import Bookmarks from './screen/bookmarks/bookmarks'
 // import Follow from './components/follow/follow' 
@@ -32,7 +32,7 @@ function App() {
             <CategoryPage />
           </Route> */}
           <Route path="/">
-            <Profile />
+            <NewStory />
             {/* <Home /> */}
           </Route>
           {/* <Route path="/articleDtails"> 
@@ -46,6 +46,9 @@ function App() {
           </Router> */}
           {/* <Router path="/menuRouter">
             <RelatedArticle />
+          </Router> */}
+          {/* <Router path="/profile">
+            <Profile />
           </Router> */}
         </Switch>
       </Router>
