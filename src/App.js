@@ -13,6 +13,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 // import Profile from './screen/profile/profile' 
 // import ArticleByPerson from './screen/articleByPerson/articleByPerson'
 // import Bookmarks from './screen/bookmarks/bookmarks'
+import Follow from './components/follow/follow' 
 
 import ArticleDetails from './screen/article/articleDetails'
 
@@ -31,9 +32,12 @@ function App() {
             <CategoryPage />
           </Route> */}
           <Route path="/"> 
-            <ArticleDetails />
+            <Follow />
             {/* <Home /> */}
           </Route>
+          {/* <Route path="/articleDtails"> 
+            <ArticleDetails />
+          </Route> */}
         </Switch>
       </Router>
     </div>
