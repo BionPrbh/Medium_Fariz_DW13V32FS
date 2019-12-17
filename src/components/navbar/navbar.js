@@ -74,8 +74,12 @@ export default function SimplePopover() {
             letterSpacing: "20px"
           }}
         >
-          <SearchIcon className="coba" />
-          <NotificationsIcon />
+          <IconButton>
+            <SearchIcon />
+          </IconButton>
+          <IconButton>
+            <NotificationsIcon />
+          </IconButton>
           <Button variant="outlined" size="small">
             Upgrade
           </Button>
