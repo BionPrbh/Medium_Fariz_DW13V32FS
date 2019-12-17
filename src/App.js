@@ -5,7 +5,6 @@ import Login from "./screen/login/login"
 import Register from "./screen/register/register";
 import CategoryPage from './screen/categoryPage/categoryPage'
 import Home from './screen/home/home'
-import ArticleDetails from './screen/articleDetails/articleDetails'
 import Comment from './components/comment/comment'
 import NewStory from './screen/newStory/newStory'
 import Stats from './screen/stats/stats'
@@ -14,7 +13,7 @@ import Profile from './components/profile/profile'
 import ArticleByPerson from './screen/articleByPerson/articleByPerson'
 import Bookmarks from './components/bookmarks/bookmarks'
 import Follow from './components/follow/follow' 
-import ArticleDetails from './screen/article/articleDetails'
+import ArticleDetails from './screen/articleDetails/articleDetails'
 import RelatedArticle from './components/relatedArticle/relatedArticle'
 
 function App() {
